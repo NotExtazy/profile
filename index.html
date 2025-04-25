@@ -27,6 +27,13 @@
             padding: 20px;
             border-radius: 5px 5px 0 0;
             color: white;
+            transition: all 0.3s ease;
+        }
+        
+        header:hover {
+            background-color: #34495e;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
         
         .profile-picture {
@@ -37,6 +44,13 @@
             border: 5px solid white;
             margin-right: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .profile-picture:hover {
+            transform: scale(1.05);
+            border-color: #3498db;
+            box-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
         }
         
         .header-content h1 {
@@ -110,6 +124,30 @@
             padding: 5px 10px;
             border-radius: 15px;
             font-size: 0.9em;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .skill-tag:hover {
+            background-color: #2980b9;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+        
+        .interest-tag {
+            background-color: #2ecc71;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .interest-tag:hover {
+            background-color: #27ae60;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
         }
         
         .sidebar .section {
@@ -166,14 +204,14 @@
         <header>
             <img src="jj.jpg" alt="Profile Picture" class="profile-picture">
             <div class="header-content">
-                <h1>Your Name</h1>
-                <p>Professional Title</p>
-                <p>Location</p>
+                <h1>MADAYAG, CEE JAY PERALTA</h1>
+                <p>BSIT Student</p>
+                <p>Manggang Marikit Guimba Nueva Ecija </p>
                 <div class="social-links">
-                    <a href="#">LinkedIn</a>
-                    <a href="#">GitHub</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Portfolio</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Tiktok</a>
+                    <a href="#">X</a>
+                    <a href="#">Instagram</a>
                 </div>
             </div>
         </header>
@@ -182,32 +220,33 @@
             <div class="main">
                 <section class="section" id="about">
                     <h2>About Me</h2>
-                    <p>Welcome to my profile! I am a passionate professional with expertise in [your field]. With [X] years of experience, I specialize in [specific skills or areas]. I am dedicated to [your professional mission or values].</p>
-                    <p>I am currently seeking opportunities in [desired role or industry] where I can leverage my skills in [key skills] to [desired impact or outcome].</p>
+                    <p>Ako si Cee Jay, Tamad pero may pangarap</p>
+                    <p>Mahilig sa Animals</p>
                 </section>
                 
                 <section class="section" id="experience">
                     <h2>Professional Experience</h2>
                     
                     <div class="experience-item">
-                        <h3>Job Title</h3>
-                        <p>Company Name</p>
+                        <h3>Web Developer</h3>
+                        <p>Sample Company</p>
                         <div class="date">January 2022 - Present</div>
+                        <div> Coding Languages</div>
                         <ul>
-                            <li>Key achievement or responsibility</li>
-                            <li>Key achievement or responsibility</li>
-                            <li>Key achievement or responsibility</li>
+                            <li>C#</li>
+                            <li>JAVA</li>
+                            <li>PHP</li>
                         </ul>
                     </div>
                     
                     <div class="experience-item">
-                        <h3>Previous Job Title</h3>
-                        <p>Previous Company Name</p>
+                        <h3>Database developer</h3>
+                        <p>Sample Company 2</p>
                         <div class="date">March 2019 - December 2021</div>
                         <ul>
-                            <li>Key achievement or responsibility</li>
-                            <li>Key achievement or responsibility</li>
-                            <li>Key achievement or responsibility</li>
+                            <li>SQL Server</li>
+                            <li>MySql</li>
+                            <li>MySql Workbench</li>
                         </ul>
                     </div>
                 </section>
@@ -216,33 +255,29 @@
                     <h2>Education</h2>
                     
                     <div class="education-item">
-                        <h3>Degree Name</h3>
-                        <p>University Name</p>
-                        <div class="date">2015 - 2019</div>
-                        <p>Relevant coursework, achievements, or activities</p>
+                        <h3>BSIT 3rd Year Student</h3>
+                        <p>Our Lady of Sacred Heart COllege of Guimba INC</p>
+                        <div class="date">2015 - Present</div>
+                       
                     </div>
                     
-                    <div class="education-item">
-                        <h3>Other Certification</h3>
-                        <p>Issuing Organization</p>
-                        <div class="date">2020</div>
-                        <p>Brief description</p>
-                    </div>
+            
                 </section>
                 
                 <section class="section" id="projects">
                     <h2>Featured Projects</h2>
                     
                     <div class="experience-item">
-                        <h3>Project Name</h3>
+                        <h3>Student Behavior Management System</h3>
                         <div class="date">2023</div>
-                        <p>Description of the project, including your role, technologies used, and outcomes.</p>
+                        <p>System that monitors and submit a report of behavior of the student. Uses a c# Coding language for backend and frontend.</p>
                     </div>
                     
                     <div class="experience-item">
-                        <h3>Another Project</h3>
-                        <div class="date">2022</div>
-                        <p>Description of the project, including your role, technologies used, and outcomes.</p>
+                        <h3>ECOLLECT: A Web Based Platform for Sustainable Waste Management with Automated Tracker using Arduino
+                        </h3>
+                        <div class="date">2024-present</div>
+                        <p>ECOLLECT is a smart waste management system developed using ASP.NET WebForms (C#) with MySQL and Arduino integration. It helps monitor real-time trash bin levels across the municipality, organizes collection schedules, and streamlines waste management through a user-friendly dashboard and automated tracking features.</p>
                     </div>
                 </section>
             </div>
@@ -251,14 +286,12 @@
                 <section class="section" id="skills">
                     <h2>Skills</h2>
                     <div class="skills">
-                        <span class="skill-tag">Skill 1</span>
-                        <span class="skill-tag">Skill 2</span>
-                        <span class="skill-tag">Skill 3</span>
-                        <span class="skill-tag">Skill 4</span>
-                        <span class="skill-tag">Skill 5</span>
-                        <span class="skill-tag">Skill 6</span>
-                        <span class="skill-tag">Skill 7</span>
-                        <span class="skill-tag">Skill 8</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Database Management</span>
+                        <span class="skill-tag">Networking</span>
+                        <span class="skill-tag">System Administration</span>
+                        <span class="skill-tag">Cybersecurity Basics</span>
+                        <span class="skill-tag">Arduino/IoT Integration</span>
                     </div>
                 </section>
                 
@@ -275,19 +308,16 @@
                 
                 
                 <section class="section" id="interests">
-                    <h2>Interests</h2>
+                    <h2>Soft Skills</h2>
                     <div class="interests">
-                        <span class="interest-tag">Interest 1</span>
-                        <span class="interest-tag">Interest 2</span>
-                        <span class="interest-tag">Interest 3</span>
-                        <span class="interest-tag">Interest 4</span>
+                        <span class="interest-tag">Problem-solving</span>
+                        <span class="interest-tag">Project management</span>
+                        <span class="interest-tag">Critical thinking</span>
+                        <span class="interest-tag">Adaptability to new tech</span>
                     </div>
                 </section>
                 
-                <section class="section" id="references">
-                    <h2>References</h2>
-                    <p>Available upon request</p>
-                </section>
+               
             </div>
         </div>
         
